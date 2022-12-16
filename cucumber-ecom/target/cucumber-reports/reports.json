@@ -1,0 +1,361 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "This is a background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4228810400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch a chrome browser",
+            "match": {
+              "location": "LoginSteps.i_launch_a_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2824608200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the ecommerce website",
+            "match": {
+              "location": "LoginSteps.i_open_the_ecommerce_website()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2880000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.initialize()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verifying Invalid Login",
+        "description": "",
+        "id": "login-features;verifying-invalid-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 234500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1215834200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter invalid username \"user1\" and password \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user1\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"password1\"",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginSteps.i_enter_invalid_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183245500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should be not be successfully logged in",
+            "match": {
+              "location": "LoginSteps.i_should_be_not_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 681258000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Close browser",
+            "match": {
+              "location": "LoginSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Run"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "This is a background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2652632700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch a chrome browser",
+            "match": {
+              "location": "LoginSteps.i_launch_a_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3576823900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the ecommerce website",
+            "match": {
+              "location": "LoginSteps.i_open_the_ecommerce_website()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 198500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.initialize()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Verifying Invalid Login",
+        "description": "",
+        "id": "login-features;verifying-invalid-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 870100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1190750600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter invalid username \"user2\" and password \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user2\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"password2\"",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginSteps.i_enter_invalid_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111789800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should be not be successfully logged in",
+            "match": {
+              "location": "LoginSteps.i_should_be_not_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 675645500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Close browser",
+            "match": {
+              "location": "LoginSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Run"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "This is a background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2514795100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch a chrome browser",
+            "match": {
+              "location": "LoginSteps.i_launch_a_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2751324700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the ecommerce website",
+            "match": {
+              "location": "LoginSteps.i_open_the_ecommerce_website()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 343500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.initialize()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Verifying Invalid Login",
+        "description": "",
+        "id": "login-features;verifying-invalid-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 324300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1103145000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter invalid username \"user3\" and password \"password3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user3\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"password3\"",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginSteps.i_enter_invalid_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99814300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should be not be successfully logged in",
+            "match": {
+              "location": "LoginSteps.i_should_be_not_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 595969100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Close browser",
+            "match": {
+              "location": "LoginSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Run"
+          }
+        ]
+      }
+    ],
+    "name": "Login features",
+    "description": "",
+    "id": "login-features",
+    "keyword": "Feature",
+    "uri": "Features\\Login.feature",
+    "tags": []
+  }
+]
